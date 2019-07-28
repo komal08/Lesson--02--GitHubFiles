@@ -1,0 +1,39 @@
+﻿
+
+
+
+	   12  mkdir komalbardia_711751
+   13  ls
+   14  cd komalbardia_711751/
+   15  mkdir workspace_v1
+   16  cd workspace_v1/
+   17  git init
+   18  vi readme.txt
+   19  ls
+   20  ls -lrt
+   21  vi readme.txt 
+   22  history
+
+    1  cd komalbardia_711751/
+    2  cd workspace_v1/
+    3  git add
+    4  git add .
+    5  git commit
+    6  ls
+    7  rm exit 
+    8  ls
+    9  history
+
+
+ubuntu@ip-172-31-12-78:~/.ssh$ history
+    1  cd komalbardia_711751/
+    2  cd workspace_v1/
+    3  git remote add origit git@github.com:komal08/testlab1_v1.git
+    4  git push -u origin master
+    5  git remote add origit https://github.com/komal08/testlab1_v1.git
+    6  git push -u origin master
+    7  git commit -m "initial commit"
+    8  git push origit master
+    9  cd ~/.ssh && ssh-keygen
+   10  git config --global user.name komal08
+   11  history
